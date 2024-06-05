@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px; 
+}
+
+
+.navbar-gradient {
+    background: linear-gradient(to right, #ff5fdc, #6403c6);
+    padding: 5px 5px;
+    margin: 5px ; /* Example gradient colors */
+}
+
+#about, #services, #contact {
+    padding: 60px 0;
+}
+
+
+h2 {
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 24px;
+    }
+    .carousel-inner img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-inner img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.container-fluid {
+    background-image: url('images1\d1.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+#gallery .card {
+    height: 100%; 
+}
+
+#gallery .card img {
+    object-fit: cover;
+    height: 250px; 
+}
+
+#gallery .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#gallery .card-text {
+    flex: 1; /* Ensures that the card text takes up the remaining space */
+}
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #343a40;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #fff;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
